@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+}
+
+html{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  max-width: 100%;
+}
+
+
+/*--Background  Styles--*/
+.landing-page{
+  background-image: url(./assets/sweet.jpeg) ;
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #B1B8BD;
+}
+
+.section.one{
+  background-image: url(./assets/oven.jpg) ;
+}
+
+.section.two{
+   background-image: url(./assets/bowl.jpeg) ;
+}
+
+.section.three{
+  background-image: url(./assets/dinner:dessert.jpg) ;
+}
+
+.section.four{
+  background-image: url(./assets/background4.jpg) ;
+}
+
+.section.five{
+  background-image: url(./assets/inside.jpg) ;
+}
+
+.section.six{
+  background-image: url(./assets/concert.jpg) ;
+}
+
+.section.seven{
+  background-image: url(./assets/background2.jpeg) ;
+  
+}         
+ /* Padding Adjusted */
+.section.eight{
+  background-image: url(./assets/people.jpeg) ;
+  padding-bottom: 0px;
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+  padding: 150px 0px 150px 0px;
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #B1B8BD;
+  background-attachment: fixed;
+}
+
+
+
+/* - - Laning Page layout - - */
+.landing-page {
+  padding: 225px 0px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Navbar style */
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: .90em;
+  letter-spacing: .2em;
+  margin-left: 85px;
+  width: 940px; 
+
+}
+
+/* Logo Position */
+img {
+  max-width: 940px;
+  max-height: auto;
+
+}
+
+/* Postioning the start of the Navbar */
+.menu {
+  margin: 0;
+}
+
+
+
+/* - -Menu Page Styling - -*/
+
+.Heading {
+  text-align: center;
+
+}
+
+.Chef {
+  width: 70px;
+  text-align: center;
+  margin: -5px;
+}
+
+.Heading-Title {
+  font-family: Lato;
+  font-weight: Black;
+  font-size: 30px;
+  letter-spacing: 3px;
+  display: inline-flex;
+}
+
+.border {
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+}
+
+.Content-Text {
+  margin-bottom: 100px;
+  font-family: Lato;
+  font-weight: Medium;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  padding: 5px;
+}
+
+.Content-Img {
+  background-color: lightgrey;
+  height: 300px;
+  width: 900px;
+  display: inline-block;
+}
+
+
+/* - - Location Page Style - -*/
+.Content{
+  display: inline-block;
+  margin: 20px 100px;
+}
+
+.Loca-title{
+  font-family: Lato;
+  color: #b22222;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 60px;
+}
+
+.Loca-initials{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+ .Loca-address{
+   font-family: Lato;
+   letter-spacing: 1px;
+   font-size: 16px;
+   font-weight: 100;
+   margin-bottom: 10px;
+ }
+
+ .Loca-hours{
+   font-family: 'Crimson Text', serif;
+   font-size: 16px;
+   
+   letter-spacing: 1px;
+   margin: 5px;
+   display: inline-flex;
+   margin-bottom: 10px;
+ }
+ .Loca-border{
+  border-bottom: 1px solid #b22222 ;
+  border-top: 1px solid #b22222;
+ }
+  .Loca-parking{
+    font-family: Lato;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+
+
+
+/* - Review Section Styling - */
+.review {
+  display: inline-block;
+  margin: 30px;
+}
+.company {
+  font-family: Lato;
+  font-weight: bolder;
+  font-size: .8em;
+  margin-bottom: 40px;
+  
+}
+
+.rating {
+  font-family: Lato;
+  font-size: 1.8em;
+  color: #b22222;
+}
+
+.votes {
+  font-family: Lato;
+  font-weight: Medium;
+  font-size: 1em;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+
+
+/* - - Media Page Styling - - */
+.gallery{
+  width: 100%;
+  height: 100%;
+}
+
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 500px; 
+  height: 500px; 
+  padding: 5px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  background: #E8E8E8;
+}
+
+#slideshow > div { 
+  position: absolute; 
+  top: 5px;
+  left: 5px; 
+  right: 5px; 
+  bottom: 5px; 
+}
+
+/*Social Media Icons*/
+.fa {
+  padding: 10px;
+  width: 35px;
+  margin: 5px 2px;
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+/* - - Style Delivery Page - - */
+.row{
+  display: inline-flex;
+   justify-content: center;
+   width: 100%;
+   
+  }
+  
+/* Float four columns side by side */
+  .column {
+    height: auto;
+    width: 25%;
+    padding: 0 10px;
+    margin: 10%;
+  }
+  
+/* Style the counter cards */
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 75px;
+  text-align: center;
+  background-color: #f1f1f1;
+  
+}
+
+.phone{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+
+.charge{
+  display: inline-flex;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.del-img{
+  width:60px;
+  height:50px;
+  border-radius:50%;
+}
+
+.space{
+  border-right: 1px solid #b22222;
+}
+
+.card-title{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+
+}
+
+
+/* - Awarded By Page Styling - */
+
+.award {
+  display: inline-block;
+  padding-top: 100px;
+  margin: 50px;
+}
+
+.awardLogo {
+  width: auto;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.awardedBy {
+  font-family: Lato;
+  font-size: 14px;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+ 
+
+
+/* - - About Page Styling - - */
+
+/*Small dash above about paragraph*/
+  .dash{
+    display: block;
+    width: 4px;
+    border-width: 1px;
+    margin-left: 50%;
+    border-color: #cc0000;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/*Line above about paragraph*/
+.line{
+    display: block;
+    width: 20%;
+    border-width: 1px;
+    margin-left: 40%;
+    border-color: #cc0000;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/*About paragraph styling*/
+.about-para{ 
+  width: 50%;
+  margin-left: 25%;
+  font-family: Lato;
+  font-size: 1.1em;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+ 
+
+/* - - Food Truck Page Styling - - */
+
+.truck{
+  display: inline-flex;
+  width: 940px;
+  height: 100%;
+ font-family: Lato;
+ font-weight: Medium;
+ font-size: 16px;
+ letter-spacing: 1px;
+}
+
+.form{
+  width: 50%;
+  height: auto;
+  margin: 20px 10px;
+ text-align: left;
+  
+}
+.foodtruck-Img{
+  width: 50%;
+  height: auto;
+ 
+}
+
+.truckImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+  margin-top: 25px;
+}
+
+.form-text{
+  font-size: 1em;
+  font-style: italic;
+  
+}
+
+.area{
+  margin-top: 1%;
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#message{
+border-radius: 5px;
+margin: 1% 0;
+width: 400px;
+height: 100px;
+}
+
+.submit{
+  
+    padding: 10px 20px 11px !important;
+    font-size: 1.3em !important;
+    width: 400px;
+    color: #b22222;
+    border-radius: 5px;
+    border: 1px solid #b22222;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+ 
+    }
+ 
+/*Follow Humpty's Link*/
+.link {
+  font-family: Lato;
+  font-size: .9em;
+  color: white;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  margin: 0;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-shadow: 2px 4px 4px black;
+  font-size: 1em;
+}   
+
+
+
+
+/* - - Footer Page Styling - - */
+footer {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: #231f20;
+ 
+}
+
+.footTitle {
+  font-family: Lato;
+  font-size: .9em;
+  padding-top: 120px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.name {
+  width: auto;
+  height: 100px;
+  margin-top: 60px;
+}
+
+.created {
+  font-family: Lato;
+  font-size: .9em;
+  letter-spacing: 3px;
+  color: gray;
+}
+
+
+/*SCREEN ADJUSTMENT*/
+@media only screen and (max-width: 768px) {
+  .column{
+    width: 420px;
+    
+  }
+ .del-img{
+   width: 20px;
+   height: 30px;
+ }
+ .row{
+   display: inline;
+ }
+ .space{
+   margin: 0px 10px;
+ }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .truck {
+    width: 420px;
+  }
+  .form{
+    width: 100%;
+  }
+}
+
+/*Makes Logo Responsive*/
+@media only screen and (max-width: 768px) {
+  img {
+    width: 420px;
+  }
+} 
